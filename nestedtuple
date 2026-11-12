@@ -1,0 +1,11 @@
+'''nested tuple'''
+
+nested=(1,(2,3),(4,(5,6)),7)
+print(nested[0])
+print(nested[1])
+print(nested[2])
+print(nested[3])
+print(nested[1][1])
+print(nested[2][1][0])
+
+
